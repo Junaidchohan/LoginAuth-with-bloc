@@ -1,9 +1,9 @@
-##Flutter Responsive Login UI with Bloc
+Flutter Responsive Login UI with Bloc
 
 A responsive Flutter authentication UI built using the Bloc pattern from flutter_bloc.
 This project demonstrates event driven state management, state transitions, BlocObserver, and a clean separation of UI and business logic.
 
-#🚀 Project Overview
+🚀 Project Overview
 This project implements a complete authentication flow using Bloc, not Cubit.
 It includes:
 Login and logout flow
@@ -13,7 +13,28 @@ Navigation based on state changes
 Global Bloc observation for debugging
 This repository exists to show when Bloc is the correct choice as application logic grows in complexity.
 
-🧠 Why Bloc Instead of Cubit
+
+
+📁 Project Structure
+lib/
+│
+├── bloc/
+│   ├── auth_bloc.dart
+│   ├── auth_event.dart
+│   └── auth_state.dart
+│
+├── widgets/
+│   ├── gradient_button.dart
+│   ├── login_field.dart
+│   └── social_button.dart
+│
+├── login_screen.dart
+├── home_screen.dart
+├── pallete.dart
+├── app_bloc_observer.dart
+└── main.dart
+  
+```🧠 Why Bloc Instead of Cubit
 Bloc is used intentionally because:
 Authentication is event driven
 A single feature has multiple possible states
@@ -46,27 +67,8 @@ Bloc creation
 State changes
 State transitions
 This is essential for debugging and monitoring large scale applications.
-
-📁 Project Structure
-lib/
-│
-├── bloc/
-│   ├── auth_bloc.dart
-│   ├── auth_event.dart
-│   └── auth_state.dart
-│
-├── widgets/
-│   ├── gradient_button.dart
-│   ├── login_field.dart
-│   └── social_button.dart
-│
-├── login_screen.dart
-├── home_screen.dart
-├── pallete.dart
-├── app_bloc_observer.dart
-└── main.dart
-
-````🎨 UI Features
+  
+🎨 UI Features
 Responsive layout
 Gradient based buttons
 Custom input fields
