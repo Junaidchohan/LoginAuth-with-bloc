@@ -1,9 +1,9 @@
-Flutter Responsive Login UI with Bloc
+##Flutter Responsive Login UI with Bloc
 
 A responsive Flutter authentication UI built using the Bloc pattern from flutter_bloc.
 This project demonstrates event driven state management, state transitions, BlocObserver, and a clean separation of UI and business logic.
 
-🚀 Project Overview
+#🚀 Project Overview
 This project implements a complete authentication flow using Bloc, not Cubit.
 It includes:
 Login and logout flow
@@ -66,7 +66,7 @@ lib/
 ├── app_bloc_observer.dart
 └── main.dart
 
-🎨 UI Features
+````🎨 UI Features
 Responsive layout
 Gradient based buttons
 Custom input fields
